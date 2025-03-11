@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shagun Mandapam Services | Wedding & Event Services</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- Header & Navigation -->
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <h1>Shagun<span>Mandapam</span>Services</h1>
+      </div>
+      <button class="hamburger">☰</button>
+      <nav>
+        <ul id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h2>Creating Magical Indian Weddings & Events</h2>
+    <p>Experience the richness of Indian traditions with our premium decoration and catering services designed to make
+      your special occasions truly unforgettable.</p>
+    <div>
+      <a href="#services" class="btn">Our Services</a>
+      <a href="#contact" class="btn btn-gold">Get a Quote</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <p>We offer comprehensive wedding and event planning services with a focus on authentic Indian traditions and
+        modern elegance.</p>
+
+      <div class="services-container">
+        <div class="service-card">
+          <img src="./assets/images/wedding.png" alt="Wedding Decoration" class="service-img">
+          <div class="service-content">
+            <h3>Wedding Decoration</h3>
+            <p>From traditional mandaps to contemporary stage designs, our decorations blend cultural elements with your
+              personal style to create breathtaking wedding venues.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <img src="./assets/images/Catering.png" alt="Catering Services" class="service-img">
+          <div class="service-content">
+            <h3>Catering Services</h3>
+            <p>Our culinary team specializes in authentic Indian cuisine, offering a wide range of regional delicacies,
+              fusion dishes, and customized menus for your events.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <img src="./assets/images/EventPlanning.png" alt="Event Planning" class="service-img">
+          <div class="service-content">
+            <h3>Event Planning</h3>
+            <p>From weddings and sangeets to corporate events and festivals, our team ensures flawless execution with
+              attention to every detail of your special occasion.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <div class="container">
+      <h2>Our Gallery</h2>
+      <p>Browse through our portfolio of stunning decorations and setups from previous events.</p>
+
+      <div class="gallery-container">
+        <div class="gallery-item">
+          <img src="/assets/images/" alt="Wedding Decoration" class="gallery-img">
+          <div class="gallery-overlay">
+            <p>Royal Wedding Setup</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="/assets/images/" alt="Mandap Decoration" class="gallery-img">
+          <div class="gallery-overlay">
+            <p>Traditional Mandap</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="/assets/images/" alt="Reception Decoration" class="gallery-img">
+          <div class="gallery-overlay">
+            <p>Elegant Reception</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="/assets/images/" alt="Food Display" class="gallery-img">
+          <div class="gallery-overlay">
+            <p>Gourmet Catering</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="/assets/images/" alt="Sangeet Night" class="gallery-img">
+          <div class="gallery-overlay">
+            <p>Vibrant Sangeet Night</p>
+          </div>
+        </div>
+
+        <div class="gallery-item">
+          <img src="/assets/images/" alt="Haldi Ceremony" class="gallery-img">
+          <div class="gallery-overlay">
+            <p>Haldi Ceremony</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Ready to plan your dream event? Get in touch with us for a personalized consultation.</p>
+
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Our Information</h3>
+          <ul>
+            <li>Address: 123 Wedding Street, Mumbai, India</li>
+            <li>Phone: +91 9876543210</li>
+            <li>Email: info@royalindian.com</li>
+            <li>Hours: Monday-Saturday, 10am-7pm</li>
+          </ul>
+        </div>
+
+        <div class="contact-form">
+          <h3>Send us a Message</h3>
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group">
+              <label for="event-type">Event Type</label>
+              <select id="event-type" name="event-type">
+                <option value="wedding">Wedding</option>
+                <option value="engagement">Engagement</option>
+                <option value="sangeet">Sangeet</option>
+                <option value="reception">Reception</option>
+                <option value="corporate">Corporate Event</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="logo">
+        <h1>Shagun<span>mandapam</span>Services</h1>
+      </div>
+
+      <div class="social-links">
+        <a href="#" class="social-link">f</a>
+        <a href="#" class="social-link">in</a>
+        <a href="#" class="social-link">ig</a>
+      </div>
+
+      <p class="copyright">&copy; 2025 Shagun Mandapam Services. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Mobile Menu -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
